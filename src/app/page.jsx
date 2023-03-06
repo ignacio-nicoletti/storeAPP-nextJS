@@ -5,6 +5,7 @@ import Button from '@/components/button/button'
 import { useState } from 'react'
 import NavBar from '@/components/navBar/NavBar'
 import { products } from "../base.js"
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,7 +26,9 @@ export default function Home() {
         total={total}
         setTotal={setTotal}
 
+
       />
+
 
       <div className={styles.containerItems}>
         {products.map(product => (
