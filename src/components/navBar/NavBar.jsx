@@ -31,7 +31,10 @@ export default function NavBar({
     };
     return (
         <div>
-            <Link href="/about">about</Link>
+            <div className={style.link}>
+                <Link href="/about">About</Link>
+
+            </div>
 
             <div className={style.containerIcon}>
 

@@ -131,3 +131,7 @@
 .iconCart:hover {
   cursor: pointer;
 }
+
+.link {
+  text-align: center;
+}
